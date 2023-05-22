@@ -1,0 +1,15 @@
+:root {
+	--value: 1px solid black;
+}
+table {
+	border: var(--value);
+}
+th {
+	border-bottom: var(--value);
+}
+td:first-child, th:first-child {
+	border-right: var(--value);
+}
+thead {
+	background: #c4c4c4;
+}
